@@ -726,6 +726,12 @@ span{
         width: 119%;
         overflow-x: hidden;
     }
+    section{
+    height: 100vh;
+    overflow-x:hidden;
+    padding: 5rem 4% 1rem;
+
+}
    .heading {
     display: flex;
     justify-content: center;
