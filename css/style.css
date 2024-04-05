@@ -89,7 +89,7 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url(/images/home.jpg);
+    background: url(home.jpg);
     background-position: center;
     background-size: cover;
     /* margin-bottom: 5px; */
@@ -376,6 +376,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
 
 }
 
@@ -409,7 +410,7 @@ span{
 }
 .education-content .content{
     position: relative;
-    overflow: hidden;
+    overflow: scroll;
     margin-top: 10px;
     font-size: larger;
     font-weight: 500;
@@ -727,12 +728,6 @@ span{
         width: 119%;
         overflow-x: hidden;
     }
-    section{
-    height: 100vh;
-    overflow-x:hidden;
-    padding: 5rem 4% 1rem;
-
-}
    .heading {
     display: flex;
     justify-content: center;
