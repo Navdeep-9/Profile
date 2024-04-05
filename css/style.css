@@ -376,7 +376,6 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap:wrap;
 
 }
 
@@ -727,6 +726,7 @@ span{
     body{
         width: 119%;
         overflow-x: hidden;
+        height:75vh;
     }
    .heading {
     display: flex;
