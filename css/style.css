@@ -77,9 +77,8 @@ body{
 }
 
 section{
-    height: 100vh;
+    height:auto;
     width:100vw;
-    
     padding: 10rem 9% 2rem;
 
 }
@@ -728,6 +727,8 @@ span{
         overflow-x: hidden;
         height:75vh;
     }
+    .header{
+        width:75%;
    .heading {
     display: flex;
     justify-content: center;
